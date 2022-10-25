@@ -1,0 +1,78 @@
+ion-content {
+      --padding-top: 40px;
+}
+
+.selection-header {
+      color: #fff;
+      font-family: 'Spotify';
+      font-weight: bold;
+      margin-left: 20px;
+      margin-bottom: 30px;
+}
+
+.buenos {
+      font-size: 21px;
+      font-weight: bold;
+      color: #fff;
+      font-family: 'Spotify';
+      margin-left: 12px;
+}
+.btnfilter {
+  margin-left: 10px;
+}
+.smallmargin {
+  margin-left: 5px;
+}
+
+ion-slides {
+      margin-bottom: 20px;
+}
+
+.title {
+      color: #fff;
+      font-family: 'Spotify';
+      font-size: small;
+}
+
+ion-slide {
+      display: block;
+      text-align: left;
+}
+.collection {
+      margin-bottom: 16px;
+    
+      .scroll-horizontal {
+        padding: 0 16px;
+      }
+    
+      .collection-title {
+        font-size: 22px;
+        font-weight: 700;
+        padding: 8px 16px 16px;
+      }
+    
+      .media-card {
+        background-color: var(--ion-color-light);
+        border-radius: 4px;
+        overflow: hidden;
+        font-size: 13px;
+        width: 180px;
+        height: 48px;
+      }
+    
+      .scroll-item {
+        &.size-sm {
+          width: 120px;
+        }
+    
+        &.size-md {
+          width: 200px;
+        }
+      }
+    
+      .item-title {
+        padding: 8px 0;
+        font-size: 13px;
+        white-space: break-spaces;
+      }
+    }

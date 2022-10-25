@@ -1,0 +1,91 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    
+    <ion-buttons>
+    
+
+      <ion-avatar class="Avatar" style="margin: 1px auto;">
+        <img src="https://cdn-icons-png.flaticon.com/512/4139/4139948.png">
+      
+      </ion-avatar>
+     
+  
+        <ion-title class="Titulo" slot="start">Tu Biblioteca</ion-title>   
+      <ion-button class="IconSearch" href="Tab2Page">
+        <ion-avatar  slot ="end" class="IconSearch" style="margin: 1px auto;">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" alt=""/>
+        <span class="material-icons-outlined">search</span>
+        </ion-avatar>  
+      </ion-button>
+        <ion-button class="BotonIconAdd">
+          <ion-avatar  slot ="end" class="IconAdd" style="margin: 1px auto;">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" alt=""/>
+              <span class="material-icons-outlined">add</span>
+              </ion-avatar>   
+        </ion-button>
+        
+    </ion-buttons>
+
+    <ion-chip class="Playlists">
+    <ion-padding class="Text1">
+      Playlists
+    </ion-padding>
+  </ion-chip>
+  <ion-chip class="Albumes">
+    <ion-padding class="Text2">
+      Albumes
+    </ion-padding>
+  </ion-chip>
+  <ion-chip class="Artistas">
+    <ion-padding class="Text3">
+      Artistas
+    </ion-padding>
+  </ion-chip>
+</ion-toolbar>
+</ion-header>
+ <ion-content>
+  
+    <ion-list class="ListaBiblioteca"> 
+
+      <ion-item class="TusMeGustaItem">
+      <img class="TusMeGustaImg"src="https://i.pinimg.com/564x/07/74/a4/0774a492388967e2b5b6d65b95f3fd1a.jpg" >
+      <label class="TusMeGustaLabel">Tus Me Gusta</label>
+      <label class="DetalleTusMeGusta">Playlist • 11 Canciones</label>
+    </ion-item>
+      <ion-item class="TusMeGustaItem">
+      <img class="TusMeGustaImg"src="https://i.scdn.co/image/ab67706f000000031d4f4258e2bb2349d4aaf405" >
+      <label class="TusMeGustaLabel">Reggaetón Chileno</label>
+      <label class="DetalleTusMeGusta">Playlist • Spotify</label>
+    </ion-item>
+        
+        
+        <ion-item class="ArtistItem">
+        <ion-avatar slot ="start" class="ArtistAvatar">
+          <img class="ArtistImg"src="https://i.scdn.co/image/ab6761610000e5ebe769600984af93b876cac668" >
+        </ion-avatar > 
+        <label class="TusMeGustaLabel">Camilo</label>
+      <label class="DetalleTusMeGusta">Artist • Spotify</label>
+
+        
+        </ion-item>
+
+          <ion-item class="TusMeGustaItem">
+            <img class="TusMeGustaImg"src="https://i.scdn.co/image/ab67706f000000036384af237ec35491a9ac5947" >
+            <label class="TusMeGustaLabel">Carrete</label>
+      <label class="DetalleTusMeGusta">Playlist • Spotify</label>
+            </ion-item>
+            <ion-item class="TusMeGustaItem">
+              <img class="TusMeGustaImg"src="https://i.scdn.co/image/ab67706f000000036a9ad1e05a179f84db1ea649" >
+              <label class="TusMeGustaLabel">This is bad bunny</label>
+      <label class="DetalleTusMeGusta">Playlist • Spotify</label>
+              </ion-item>
+              <ion-item class="TusMeGustaItem">
+                <img class="TusMeGustaImg"src="https://light.pawa.cl/img/2021/09/19234211/image004-600x600.jpg" >
+                <label class="TusMeGustaLabel">Carrete Dieciochero</label>
+      <label class="DetalleTusMeGusta">Playlist • 11 Canciones</label>
+                </ion-item>
+  
+
+  </ion-list>
+</ion-content>
+

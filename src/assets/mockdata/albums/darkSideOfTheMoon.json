@@ -1,0 +1,18 @@
+{
+  "artist": "Pink Floyd",
+  "backgroundColor": "#363230",
+  "image": "darkSideOfTheMoon",
+  "released": 1973,
+  "title": "The Dark Side Of The Moon",
+  "tracks": [
+    { "title": "Speak to Me / Breathe", "seconds": 161 },
+    { "title": "On The Run", "seconds": 245 },
+    { "title": "Time", "seconds": 288 },
+    { "title": "The Great Gig in the Sky", "seconds": 215 },
+    { "title": "Money", "seconds": 345 },
+    { "title": "Us and Them", "seconds": 250 },
+    { "title": "Any Colour You Like", "seconds": 287 },
+    { "title": "Brain Damage", "seconds": 271 },
+    { "title": "Eclipse", "seconds": 210 }
+  ]
+}

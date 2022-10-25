@@ -1,0 +1,20 @@
+{
+  "artist": "Tame Impala",
+  "backgroundColor": "#736026",
+  "image": "currents",
+  "released": 2015,
+  "title": "Currents",
+  "tracks": [
+    { "title": "Let It Happen", "seconds": 161 },
+    { "title": "The Moment", "seconds": 245 },
+    { "title": "Eventually", "seconds": 288 },
+    { "title": "The Less I Know the Better", "seconds": 215 },
+    { "title": "Disciples", "seconds": 345 },
+    { "title": "Reality In Motion", "seconds": 250 },
+    { "title": "New Person, Same Old Mistakes", "seconds": 287 },
+    { "title": "Gossip", "seconds": 271 },
+    { "title": "Past Life", "seconds": 210 },
+    { "title": "Nangs", "seconds": 237 },
+    { "title": "Yes I'm Changing", "seconds": 345 }
+  ]
+}

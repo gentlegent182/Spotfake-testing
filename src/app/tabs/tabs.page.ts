@@ -1,12 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { IonTabs } from '@ionic/angular';
 
 @Component({
   selector: 'app-tabs',
-  templateUrl: 'tabs.page.html',
-  styleUrls: ['tabs.page.scss']
+  templateUrl: './tabs.page.html',
+  styleUrls: ['./tabs.page.scss'],
 })
 export class TabsPage {
+  @ViewChild(IonTabs) tabs: IonTabs;
+  selected = '';
+  progress = 42;
 
-  constructor() {}
+  constructor() { }
 
+  setSelectedTab() {
+    console.log('Llamando');
+    this.selected = this.tabs.getSelected();
+  }
 }

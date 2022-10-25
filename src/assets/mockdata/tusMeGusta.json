@@ -1,0 +1,16 @@
+[
+  { "id": 1, "image": "blackstar", "title": "Blackstar" },
+  { "id": 2, "image": "darkSideOfTheMoon", "title": "The Dark Side of The Moon" },
+  {
+    "id": 3,
+    "image": "currents",
+    "title": "Currents"
+  },
+  { "id": 4, "image": "futureNostalgia", "title": "Future Nostalgia" },
+  { "id": 5, "image": "wishYouWereHere", "title": "Wish You Were Here" },
+  { "id": 6, "image": "extraMachine", "title": "Extraordinary Machine" },
+  { "id": 7, "image": "theCreekDrank", "title": "The Creek Drank The Cradle" },
+  { "id": 8, "image": "conspiracyOfOne", "title": "Conspiracy of One" },
+  { "id": 9, "image": "stadiumArcadium", "title": "Stadium Arcadium" },
+  { "id": 10, "image": "bornToDie", "title": "Born to Die" }
+]

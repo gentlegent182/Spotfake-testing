@@ -1,0 +1,16 @@
+{
+  "artist": "David Bowie",
+  "backgroundColor": "#0d2157",
+  "image": "blackstar",
+  "released": 2018,
+  "title": "Blackstar",
+  "tracks": [
+    { "title": "★", "seconds": 251 },
+    { "title": "Lazarus", "seconds": 248 },
+    { "title": "Girl Loves Me", "seconds": 320 },
+    { "title": "I Can't Give Everything Away", "seconds": 403 },
+    { "title": "'Tis a Pity She Was a Whore", "seconds": 282 },
+    { "title": "Sue (or In a Season of Crime)", "seconds": 328 },
+    { "title": "Dollar Days", "seconds": 294 }
+  ]
+}

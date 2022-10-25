@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'Spotifake testing',
+  appName: 'Spotifake',
   webDir: 'www',
   bundledWebRuntime: false
 };

@@ -1,0 +1,61 @@
+{
+  "artist": "The Offspring",
+  "backgroundColor": "#70603b",
+  "image": "conspiracyOfOne",
+  "released": 2000,
+  "title": "Conspiracy Of One",
+  "tracks": [
+    {
+      "title": "Intro",
+      "seconds": 5
+    },
+    {
+      "title": "Original Prankster",
+      "seconds": 183
+    },
+    {
+      "title": "Million Miles Away",
+      "seconds": 223
+    },
+    {
+      "title": "Living In Chaos",
+      "seconds": 87
+    },
+    {
+      "title": "One Fine Day",
+      "seconds": 260
+    },
+    {
+      "title": "Denial, Revisited",
+      "seconds": 211
+    },
+    {
+      "title": "Conspiracy Of One",
+      "seconds": 260
+    },
+    {
+      "title": "Come Out Swinging",
+      "seconds": 260
+    },
+    {
+      "title": "Want You Bad",
+      "seconds": 260
+    },
+    {
+      "title": "Dammit, I Changed Again",
+      "seconds": 260
+    },
+    {
+      "title": "Special Delivery",
+      "seconds": 260
+    },
+    {
+      "title": "All Along",
+      "seconds": 260
+    },
+    {
+      "title": "Vultures",
+      "seconds": 260
+    }
+  ]
+}

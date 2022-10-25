@@ -1,17 +1,56 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+  <ion-content>
+      <h2 class="buenos ion-no-padding">Buenas noches<ion-icon name="notifications-outline" class="btnfilter"></ion-icon><ion-icon name="timer-outline"></ion-icon><ion-icon name="settings-outline" slot="icon-only"></ion-icon></h2>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+      <ion-button size="small" shape="round" fill="solid" color="medium" class="ion-text-center ion-align-self-center btnfilter"><ion-text color="light"><sub>Música</sub></ion-text></ion-button>
+      
+      <ion-button size="small" shape="round" fill="solid" color="medium" class="ion-text-center ion-align-self-center"><ion-text color="light"><sub>Podcasts & Shows</sub></ion-text></ion-button>
+      
+      <div class="scroll-horizontal">
+        <div class="scroll-item" *ngFor="let i of [0,1,2]">
+          <div class="media-card" routerLink="album">
+            <ion-grid>
+              <ion-row class="grid-no-padding ion-align-items-center">
+                <ion-col size="auto">
+                  <ion-thumbnail>
+                    <img src="{{'assets/images/playlists/img_' + (i%5 + 1) + '.png'}}" alt="">
+                  </ion-thumbnail>
+                </ion-col>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+                <ion-col color="medium" class="ion-padding-start">
+                  <ion-text color="light">Daily Mix {{i+1}}</ion-text>
+                </ion-col>
+
+                <ion-col size="auto">
+                  <ion-thumbnail>
+                    <img src="{{'assets/images/playlists/img_' + (i%5 + 1) + '.png'}}" alt="">
+                  </ion-thumbnail>
+                </ion-col>
+
+                <ion-col color="medium" class="ion-padding-start">
+                  <ion-text color="light">Daily Mix {{i+3}}</ion-text>
+                </ion-col>
+
+
+              </ion-row>
+            </ion-grid>
+          </div>  
+        </div>
+      </div>
+
+  <ion-row class="ion-no-padding smallmargin" *ngFor="let entry of data; let isFirst = first;">
+    <ion-col size="9">
+      <h2 class="section-header">{{ entry.title }}</h2>
+      </ion-col>
+      <ion-col size="3" class="ion-align-self-center ion-text-end">
+        <ion-button *ngIf="isFirst" fill="clear" color="light">
+        </ion-button>
+      </ion-col>
+
+      <ion-slides [options]="opts">
+        <ion-slide *ngFor="let album of entry.albums" routerLink="album">
+          <img [src]="'/assets/images/albums/'+dasherize(album.image)+'.jpg'">
+          <span class="title">{{ album.title }}</span>
+        </ion-slide>
+      </ion-slides>
+    </ion-row>
 </ion-content>
